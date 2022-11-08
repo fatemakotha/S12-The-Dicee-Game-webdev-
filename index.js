@@ -16,3 +16,13 @@ var randomImageSource = "images/" + randomDiceImage; //gives something like "ima
 //We select all elements with the image tag
 var image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src", randomImageSource);
+
+
+//Change title depending on number of dice rolled:
+if (randomNumber1 > randomNumber2) {
+  document.querySelector("h1").innerHTML = "Player 1 wins!"
+} else if (randomNumber2 > randomNumber1) {
+  document.querySelector("h1").innerHTML = "Players 2 wins!!"
+} else {
+  document.querySelector("h1").innerHTML = "Its a DRAW !!!"
+}
