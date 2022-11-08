@@ -1,3 +1,4 @@
+//CODE FOR DICE 1:
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; //prints a number between 1 - 6
 var randomDiceImage = "dice" + randomNumber1 + ".png"
 //Creating a variable for the source of image
@@ -8,7 +9,7 @@ var image1 = document.querySelectorAll("img")[0];
 image1.setAttribute("src", randomImageSource);
 
 
-
+//CODE FOR DICE 2:
 var randomNumber2 = Math.floor(Math.random() * 6) + 1; //prints a number between 1 - 6
 var randomDiceImage = "dice" + randomNumber2 + ".png"
 //Creating a variable for the source of image
