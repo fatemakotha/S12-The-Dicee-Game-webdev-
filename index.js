@@ -3,4 +3,5 @@ var randomNumber1 = Math.floor(Math.random() * 6) + 1; //prints a number between
 
 var randomDiceImage = "dice" + randomNumber1 + ".png"
 
-alert("checking")
+//Creating a variable for the source of image
+var randomImageSource = "images/" + randomDiceImage; //gives something like "images/dice1.png" or "images/dice5.png"
