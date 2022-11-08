@@ -8,4 +8,9 @@ var randomImageSource = "images/" + randomDiceImage; //gives something like "ima
 
 
 //We select all elements with the image tag
-document.querySelectorAll("img")
+var image1 = document.querySelectorAll("img")[0];
+//setAttribute takes the attribute we want to change i.e. src, and what we want to change it to i.e. randomImageSource **
+image1.setAttribute("src", randomImageSource);
+
+
+// var image2 = document.querySelectorAll("img")[1];
